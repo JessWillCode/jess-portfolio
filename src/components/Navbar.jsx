@@ -37,25 +37,25 @@ const Navbar = () => {
             </ul>
 
             {/* social icons */}
-            <div className='flex fixed flex-col top-[35%] left-0'>
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[0px] duration-900 bg-[#0072b1]'>
-                        <a className='flex justify-between items-center w-full text- white' href="https://www.linkedin.com/in/jesswillco/">
+                        <a target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text- white' href="https://www.linkedin.com/in/jesswillco/">
                             LinkedIn <FaLinkedin size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[0px] duration-900 bg-[#443c41]'>
-                        <a className='flex justify-between items-center w-full text- white' href="https://www.linkedin.com/in/jesswillco/">
+                        <a target='_blank' rel='noreferrer' className='flex justify-between items-center w-full text- white' href="https://github.com/JessWillCode">
                             Github <FaGithub size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[0px] duration-900 bg-[#a2d3de]'>
-                        <a className='flex justify-between items-center w-full text- white' href="https://www.linkedin.com/in/jesswillco/">
+                        <a className='flex justify-between items-center w-full text- white' href="/">
                             Email <HiOutlineMail size={30} />
                         </a>
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-105px] hover:ml-[0px] duration-900 bg-[#7562a1]'>
-                        <a className='flex justify-between items-center w-full text- white' href="https://www.linkedin.com/in/jesswillco/">
+                        <a className='flex justify-between items-center w-full text- white' href="/">
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

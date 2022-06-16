@@ -1,13 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@font-face {
+    font-family: 'Amsterdam4';
+    src: url('/src/fonts/Amsterdam.ttf');
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 @layer base {
    body {
        @apply font-[Raleway];
+       @apply text-[#2a145b];
    } 
    li {
        @apply px-4;
