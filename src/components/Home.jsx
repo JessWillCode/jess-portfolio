@@ -4,7 +4,7 @@ import Pic from '../assets/pic of me.png';
 
 const Home = () => {
   return (
-    <div name='home' className='w-full h-screen bg-[#dfeff4]'>
+    <div name='home' className='w-full h-screen'>
         
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>

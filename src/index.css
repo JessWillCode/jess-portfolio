@@ -12,6 +12,7 @@
    body {
        @apply font-[Raleway];
        @apply text-[#2a145b];
+       @apply bg-[#dfeff4]
    } 
    li {
        @apply px-4;
