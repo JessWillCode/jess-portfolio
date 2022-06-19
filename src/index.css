@@ -19,3 +19,19 @@
        @apply cursor-pointer;
    }
 }
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        #7562a1,
+        #2a145b
+    )!important;
+}
