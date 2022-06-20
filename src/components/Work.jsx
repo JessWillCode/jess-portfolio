@@ -13,7 +13,7 @@ const Work = () => {
                 <p className='text-2xl py-10'>Check Out Some of my Recent Work!</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-20'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-20 px-20'>
                 <div style={{backgroundImage: `url(${Coder})`}} 
                 className='group container rounded-md flex justify-center items-center content-div'>
 
