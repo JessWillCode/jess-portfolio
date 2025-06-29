@@ -10,11 +10,7 @@ const Work = () => {
         <div>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <p className='text-4xl text-[#7562a1] font-[Amsterdam4] font-bold inline border-b-4 border-[#2a145b] pb-8'>Work</p>
-                <div className="text-2xl py-10 space-y-4">
-                  <p>Excuse the Mess!</p>
-                  <p>I am currently working to add my recent projects and deploy previous ones.</p>
-                  <p>Check out my GitHub or feel free to reach out below.</p>
-                </div>
+                  <p className='text-4xl'>Excuse the Mess! Updated Content Coming Soon.</p
             </div>
 
               {/* <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-20 px-20'>
