@@ -1,8 +1,8 @@
 import React from 'react';
-import Coder from '../assets/Coderheroes.png';
-import Disney from '../assets/DisneySnackPlanner.png';
-import Waifu from '../assets/WaifuforYou.png';
-import Recipe from '../assets/SecretFamilyRecipe.png';
+// import Coder from '../assets/Coderheroes.png';
+// import Disney from '../assets/DisneySnackPlanner.png';
+// import Waifu from '../assets/WaifuforYou.png';
+// import Recipe from '../assets/SecretFamilyRecipe.png';
 
 const Work = () => {
   return (
@@ -10,14 +10,13 @@ const Work = () => {
         <div>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <p className='text-4xl text-[#7562a1] font-[Amsterdam4] font-bold inline border-b-4 border-[#2a145b] pb-8'>Work</p>
-                <p className='text-2xl py-10'>Check Out Some of my Recent Work!</p>
+                <p className='text-2xl py-10'>Excuse the Mess! I am currently working to add my recent projects and deploy previous projects. Check out my GitHub or feel free to reach out below.</p>
             </div>
 
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-20 px-20'>
+              {/* <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 mx-20 px-20'>
                 <div style={{backgroundImage: `url(${Coder})`}} 
                 className='group container rounded-md flex justify-center items-center content-div'>
 
-                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <div className='pt-8 text-center'>
                                 <a target='_blank' rel='noreferrer'  href="https://a.coderheroes.dev/login">
@@ -34,7 +33,6 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Disney})`}} 
                 className='group container rounded-md flex justify-center items-center content-div'>
 
-                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <div className='pt-8 text-center'>
                                 <a target='_blank' rel='noreferrer'  href="/">
@@ -51,7 +49,6 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Recipe})`}} 
                 className='group container rounded-md flex justify-center items-center content-div'>
 
-                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <div className='pt-8 text-center'>
                                 <a target='_blank' rel='noreferrer'  href="/">
@@ -68,7 +65,6 @@ const Work = () => {
                 <div style={{backgroundImage: `url(${Waifu})`}} 
                 className='group container rounded-md flex justify-center items-center content-div'>
 
-                    {/* hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                             <div className='pt-8 text-center'>
                                 <a target='_blank' rel='noreferrer'  href="/">
@@ -82,7 +78,7 @@ const Work = () => {
                         </div>
                     
                 </div>
-            </div>
+            </div> */}
 
         </div>
     </div>
