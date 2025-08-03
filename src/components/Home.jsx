@@ -10,7 +10,7 @@ const Home = () => {
         {/* container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <div classname='flex justify-center'>
-                <img className='h-[150px] sm:h-[300px]' src={Pic} alt='a girl and her 2 dogs'/>
+                {/*<img className='h-[150px] sm:h-[300px]' src={Pic} alt='a girl and her 2 dogs'/>*/}
                 <h1 className='text-5xl sm:text-7xl text-center font-bold font-[Amsterdam4] text-[#7562a1] py-20'>Jessica Williams</h1>
             </div>
             <h2 className='text-center text-4xl sm:7xl'>Full Stack Software Engineer & Designer</h2>
