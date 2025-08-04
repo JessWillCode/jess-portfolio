@@ -35,8 +35,8 @@ const projects = [{
 "Optimized Prisma schema for scalable filtering"
 ],
 "links": {
-"deployed_site": "Deployed Site",
-"github_repo": "GitHub Repo"
+"deployed_site": "https://bts-seom-frontend.onrender.com",
+"github_repo": "https://github.com/JessWillCode/bts-seom/tree/main"
 }
 },
 {
@@ -72,7 +72,12 @@ const projects = [{
 "Reduced frontend load times by 20%",
 "Enhanced UX with comic-themed UI and Ant Design components",
 "Increased test coverage and reduced bugs post-release"
-]
+],
+    "links": {
+        "deployed_site": "https://bts-seom-frontend.onrender.com",
+        "github_repo": "https://github.com/JessWillCode/coder-heroes-fe",
+        "case_study": "https://www.figma.com/slides/zgaoTK3yaSLsRpZajrXW8V/Coderheroes-UX-UI-Case-Study?node-id=12-656&t=UIHyuQsjB9l9y4UA-1"
+    }
 },
 {
 "title": "Underdog Devs Auth0 Refactor",
@@ -89,7 +94,11 @@ const projects = [{
 "Streamlined fullstack authentication flow",
 "Improved modularity and efficiency of login system",
 "Boosted test coverage to 85%"
-]
+],
+    "links": {
+        "deployed_site": "https://bts-seom-frontend.onrender.com",
+        "github_repo": "https://github.com/JessWillCode/coder-heroes-fe"
+    }
 },
 {
 "title": "Fullstack Academy Internal Tools",
